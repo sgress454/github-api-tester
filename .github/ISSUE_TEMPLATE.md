@@ -1,17 +1,27 @@
-<!-- FIRST THINGS FIRST: please fill out the following info (don't change text inside of [ ] brackets) -->
-[Sails version]: 
-[Node version]:
-[NPM version]:
-[Operating system]:
+<!--
+================================================
+FIRST THINGS FIRST: please fill out the following info 
+(Don't change text between **) 
+================================================
+-->
+
+**Sails version**:
+**Node version**:
+**NPM version**:
+**Operating system**:
+<hr/>
 
 <!-- 
-IMPORTANT - Read Carefully (Sailsbot will know if you don't)! 
+================================================
+IMPORTANT - Read Carefully (Sailsbot will know if you don't)!  
+================================================
 
-Before you submit an issue for Sails, please make sure you have read the issue contribution guide (http://bit.ly/sails-issue-guide) carefully, and then verify the following by placing an X in between each set of [ ] brackets below (don't make any other changes to the text!):
+Before you submit an issue for Sails, please make sure you have read the issue contribution guide (http://bit.ly/sails-issue-guide) carefully, and then verify the following by typing an X in between each set of [ ] brackets below (don't make any other changes to the text!):
 
-- [ ] I am experiencing a concrete technical issue with Sails (ideas and feature proposals should follow the guide for proposing features and enhancements (http://bit.ly/sails-feature-guide), which involves making a pull request).
+### BEGIN PLEDGE ###
+- [ ] I am experiencing a concrete technical issue with Sails (ideas and feature proposals should follow the guide for proposing features and enhancements (http://bit.ly/sails-feature-guide), which involves making a pull request).  If you're not 100% certain whether it's a bug or not, that's okay--you may continue.  The worst that can happen is that the issue will be closed and we'll point you in the right direction.
 
-- [ ] I am not asking a question about how to use Sails (please refer to the documentation(http://sailsjs.org), or post on http://stackoverflow.com, our Google Group (http://bit.ly/sails-google-group) or our live chat (https://gitter.im/balderdashy/sails).
+- [ ] I am not asking a question about how to use Sails or about whether or not Sails has a certain feature (please refer to the documentation(http://sailsjs.org), or post on http://stackoverflow.com, our Google Group (http://bit.ly/sails-google-group) or our live chat (https://gitter.im/balderdashy/sails).
 
 - [ ] I have already searched for related issues, and found none open (if you found a related _closed_ issue, please link to it in your post).
 
@@ -29,13 +39,13 @@ Before you submit an issue for Sails, please make sure you have read the issue c
     * that you haven't made any inline changes to files in the node_modules/ folder
     * that you don't have any weird global dependency loops The easiest way to double-check any of the above, if you aren't sure, is to run: rm -rf node_modules && npm cache clear && npm install.
 
-- [ ] If I am using the _master_ (development) branch of Sails, I have verified that my issue also exists with the most recent published Sails version (we welcome bug reports against code under development, we just ask that you also verify that this is a _new_ issue versus something that also exists in the published version of Sails).
+- [ ] If using the _master_ (development) branch of Sails, I have verified that my issue also exists with the most recent published Sails version (we welcome bug reports against code under development, we just ask that you also verify that this is a _new_ issue versus something that also exists in the published version of Sails).
 
 and finally...
 - [ ] **I can provide steps to reproduce this issue that others can follow.**
 
 Ideally, this involves creating a new repo that demonstrates the problem (see instructions at http://bit.ly/sails-issue-repro).  Even though your issue may seem so simple to reproduce that a new repo is unnecessary, you'd be surprised how many solutions present themselves when you start from `sails new` and attempt to recreate your issue from scratch in a new app.  This ensures that the real issue isn't in your user code (a forgotten policy file, perhaps?) or in a third-party module.  If you're absolutely _convinced_ that a new repo is unnecessary, provide clear, concise and _specific_ steps to reproduce the problem in your post (not "create a model then do blueprint create").
+### END PLEDGE ###
 
 OKAY--THANKS FOR READING!  Continue posting details of your issue below. -->
-
 
